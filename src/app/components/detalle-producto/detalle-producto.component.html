@@ -1,0 +1,52 @@
+<div class="card mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <!---Imagen de producto-->
+                <img class="card-img-top ml-3 mt-2" [src]="producto.imagen" alt="Card image cap">
+            </div>
+            <div class="col-md-4">
+                <!---Toda la informacion del producto-->
+                <div class="card mt-5" style="width: 18rem;">
+                    <div class="card-header">
+                        <h3>{{producto.nombre}}</h3><span class="badge badge-primary">{{producto.categoria}}</span> 
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"> <i class="fa-solid fa-hand-point-right"></i> {{producto.descripcion}}</li>
+                      <li class="list-group-item text-success bold font-weight-bold lead"><i class="fa-solid fa-tag"></i>{{producto.precio}}</li>
+                      <li class="list-group-item">
+
+                        <div class="form-group">
+                            <div class="input-group">
+                              <select class="custom-select" id="exampleCombobox">
+                                <option value="">Talla</option>
+                                <option *ngFor="let talla of producto.tallas" [value]="talla">{{talla}}</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <div class="input-group">
+                              <select class="custom-select" id="exampleCombobox">
+                                <option value="">Colores</option>
+                                <option *ngFor="let color of producto.colores" [value]="color">{{color}}</option>
+                              </select>
+                            </div>
+                          </div>
+
+                      </li>
+                    </ul>
+                    <div *ngIf="producto.disponible; else elseBlock">
+                        <a href="#" class="btn btn-success mx-1 ml-3 mt-2 mb-2"> Añadir a carrito<i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                    <ng-template #elseBlock>
+                        <a href="#" class="btn btn-danger mx-1 disabled"> Añadir a carrito<i class="fa-solid fa-cart-shopping"></i></a>
+                        <div class="alert alert-danger" role="alert">
+                            Producto agotado
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

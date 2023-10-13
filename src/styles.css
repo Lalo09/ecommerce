@@ -1,0 +1,9 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.altura-fija {
+    height: 350px;
+}
+
+.altura-tarjeta {
+  height: 600px;
+}

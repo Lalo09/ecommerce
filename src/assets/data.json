@@ -1,0 +1,454 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Camiseta de Entrenamiento de Secado Rápido",
+        "descripcion": "Camiseta de manga corta con tecnología de secado rápido, perfecta para entrenamientos intensos.",
+        "precio": 29.99,
+        "imagen": "https://m.media-amazon.com/images/I/81oWf0Q47KL._AC_SX569_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Azul", "Rojo"],
+        "disponible": false
+      },
+      {
+        "id": 2,
+        "nombre": "Leggings de Alto Rendimiento",
+        "descripcion": "Leggings de compresión que ofrecen soporte y comodidad durante tus rutinas de ejercicio.",
+        "precio": 39.99,
+        "imagen": "https://m.media-amazon.com/images/I/61jkUp+1HvL._AC_SX679_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Negro", "Verde", "Morado"],
+        "disponible": true
+      },
+      {
+        "id": 3,
+        "nombre": "Zapatillas de Running Elite",
+        "descripcion": "Zapatillas de running diseñadas para la máxima amortiguación y rendimiento en la pista.",
+        "precio": 89.99,
+        "imagen": "https://m.media-amazon.com/images/I/51x6hwPqmML._AC_SY500_.jpg",
+        "categoria": "Zapatillas",
+        "tallas": ["US 5", "US 6", "US 7", "US 8", "US 9"],
+        "colores": ["Blanco/Negro", "Azul/Amarillo", "Negro/Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 4,
+        "nombre": "Mochila de Entrenamiento Resistente al Agua",
+        "descripcion": "Mochila con múltiples compartimentos para llevar tus pertenencias mientras entrenas.",
+        "precio": 49.99,
+        "imagen": "https://m.media-amazon.com/images/I/61ccgQHxunL._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Gris", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 5,
+        "nombre": "Botella de Agua de Acero Inoxidable",
+        "descripcion": "Botella de agua duradera y aislada para mantener tus bebidas frías durante horas.",
+        "precio": 19.99,
+        "imagen": "https://m.media-amazon.com/images/I/61Nbij7DFXL._AC_SX522_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Plateado", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 6,
+        "nombre": "Camiseta de Compresión para Entrenamiento",
+        "descripcion": "Camiseta de compresión de alto rendimiento para entrenamientos intensos.",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/71rHbPDbwgL._AC_SX569_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Blanco", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 7,
+        "nombre": "Guantes de Levantamiento de Pesas",
+        "descripcion": "Guantes acolchados para levantamiento de pesas, con agarre antideslizante.",
+        "precio": 14.99,
+        "imagen": "https://m.media-amazon.com/images/I/71P6bRRvMlL._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Azul", "Rosa"],
+        "disponible": true
+      },
+      {
+        "id": 8,
+        "nombre": "Pantalones Cortos de Running",
+        "descripcion": "Pantalones cortos ligeros y transpirables para correr con comodidad.",
+        "precio": 24.99,
+        "imagen": "https://m.media-amazon.com/images/I/51-YvfHjYcL._AC_SX679_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Azul", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 9,
+        "nombre": "Calcetines de Alto Rendimiento",
+        "descripcion": "Calcetines diseñados para mantener tus pies secos y cómodos durante el ejercicio.",
+        "precio": 9.99,
+        "imagen": "https://m.media-amazon.com/images/I/61mlZEZmlTL._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Blanco", "Negro", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 10,
+        "nombre": "Top Deportivo de Alto Impacto",
+        "descripcion": "Top deportivo con soporte de alto impacto para entrenamientos intensivos.",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/51MR5xNHhzL._AC_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Gris", "Rosa"],
+        "disponible": true
+      },
+      {
+        "id": 11,
+        "nombre": "Banda de Resistencia para Ejercicios",
+        "descripcion": "Banda elástica de resistencia para fortalecer los músculos durante el entrenamiento en casa.",
+        "precio": 12.99,
+        "imagen": "https://m.media-amazon.com/images/I/61qCmZLcRXL.__AC_SY300_SX300_QL70_ML2_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Azul", "Verde", "Morado"],
+        "disponible": true
+      },
+      {
+        "id": 12,
+        "nombre": "Chaqueta Deportiva Cortavientos",
+        "descripcion": "Chaqueta cortavientos para correr en condiciones de viento y lluvia.",
+        "precio": 59.99,
+        "imagen": "https://m.media-amazon.com/images/I/61QUXW8J3GL._AC_SX569_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Azul", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 13,
+        "nombre": "Pantalones de Entrenamiento de Secado Rápido",
+        "descripcion": "Pantalones de entrenamiento de secado rápido para mayor comodidad durante el ejercicio.",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/71TsXgI1YeL._AC_SY741_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores":      ["Negro", "Gris", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 14,
+        "nombre": "Cinturón de Levantamiento de Pesas",
+        "descripcion": "Cinturón de levantamiento de pesas para proteger y dar soporte a la espalda durante el entrenamiento de fuerza.",
+        "precio": 19.99,
+        "imagen": "https://m.media-amazon.com/images/I/81XOlJpgjiL._AC_SX569_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 15,
+        "nombre": "Sudadera con Capucha de Alto Rendimiento",
+        "descripcion": "Sudadera con capucha transpirable y elástica para mantener la temperatura corporal durante los entrenamientos al aire libre.",
+        "precio": 44.99,
+        "imagen": "https://m.media-amazon.com/images/I/51OhTvHjyfL._AC_SX679_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Gris", "Negro", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 16,
+        "nombre": "Calcetines de Compresión",
+        "descripcion": "Calcetines de compresión que mejoran la circulación sanguínea y reducen la fatiga muscular durante el ejercicio.",
+        "precio": 14.99,
+        "imagen": "https://m.media-amazon.com/images/I/51pny9NPDPS.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Blanco", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 17,
+        "nombre": "Pantalones Cortos de Entrenamiento",
+        "descripcion": "Pantalones cortos ligeros y cómodos para entrenamientos de verano.",
+        "precio": 24.99,
+        "imagen": "https://m.media-amazon.com/images/I/71jn-LIrRIL._AC_SX679_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Azul", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 18,
+        "nombre": "Gorra Deportiva Transpirable",
+        "descripcion": "Gorra deportiva con tejido transpirable que mantiene la cabeza fresca durante el entrenamiento al aire libre.",
+        "precio": 9.99,
+        "imagen": "https://m.media-amazon.com/images/I/61kTCVzhX5L._AC_SX569_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Blanco", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 19,
+        "nombre": "Leggings de Alto Rendimiento",
+        "descripcion": "Leggings elásticos y transpirables para entrenamientos de alta intensidad.",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/611A-LJWi6L._AC_SX679_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 20,
+        "nombre": "Camiseta Deportiva de Manga Corta",
+        "descripcion": "Camiseta de manga corta diseñada para un rendimiento óptimo durante el ejercicio.",
+        "precio": 24.99,
+        "imagen": "https://m.media-amazon.com/images/I/51Vi4V5ujUL._AC_SX679_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Azul", "Blanco"],
+        "disponible": true
+      },
+      {
+        "id": 21,
+        "nombre": "Zapatillas de Running",
+        "descripcion": "Zapatillas de running con amortiguación para una comodidad superior durante la carrera.",
+        "precio": 79.99,
+        "imagen": "https://m.media-amazon.com/images/I/81uaX4sfuOL._AC_SY500_.jpg",
+        "categoria": "Calzado",
+        "tallas": ["US 7", "US 8", "US 9", "US 10"],
+        "colores": ["Negro", "Gris", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 22,
+        "nombre": "Pantalones de Yoga",
+        "descripcion": "Pantalones de yoga ligeros y elásticos para una práctica cómoda y libre de restricciones.",
+        "precio": 29.99,
+        "imagen": "https://m.media-amazon.com/images/I/51kD1J8sd6L._AC_UL320_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Morado", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 23,
+        "nombre": "Gorra Deportiva con Protección Solar",
+        "descripcion": "Gorra deportiva con protección solar para mantenerte fresco y protegido durante el ejercicio al aire libre.",
+        "precio": 14.99,
+        "imagen": "https://m.media-amazon.com/images/I/61E92NguWxL._AC_UL320_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Blanco", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 24,
+        "nombre": "Mallas de Compresión",
+        "descripcion": "Mallas de compresión que mejoran la circulación y reducen la fatiga muscular durante el entrenamiento.",
+        "precio": 39.99,
+        "imagen": "https://m.media-amazon.com/images/I/61Z+PWyrFQL._SX466_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Rojo", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 25,
+        "nombre": "Chaqueta Deportiva con Capucha",
+        "descripcion": "Chaqueta deportiva con capucha y cierre de cremallera para entrenamientos al aire libre en clima fresco.",
+        "precio": 49.99,
+        "imagen": "https://m.media-amazon.com/images/I/617n64AijOL._AC_SX679_.jpg",
+        "categoria": "Chaquetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Gris", "Negro", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 26,
+        "nombre": "Calcetines Deportivos de Alto Rendimiento",
+        "descripcion": "Calcetines deportivos diseñados para un rendimiento óptimo y comodidad durante el ejercicio.",
+        "precio": 12.99,
+        "imagen": "https://m.media-amazon.com/images/I/818zFePRbwL._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Blanco", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 27,
+        "nombre": "Pantalones Cortos de Running",
+        "descripcion": "Pantalones cortos de running ligeros y transpirables para entrenamientos de resistencia.",
+        "precio": 19.99,
+        "imagen": "https://m.media-amazon.com/images/I/61sqOIkKZiL._AC_SX679_.jpg",
+        "categoria": "Pantalones Cortos",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Azul", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 28,
+        "nombre": "Sudadera con Cremallera de Alto Rendimiento",
+        "descripcion": "Sudadera con cremallera y bolsillos para mantener la temperatura corporal durante los entrenamientos al aire libre.",
+        "precio": 54.99,
+        "imagen": "https://m.media-amazon.com/images/I/61yM2yUVPUL._AC_UL320_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Gris", "Negro", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 29,
+        "nombre": "Cinturón de Levantamiento de Pesas",
+        "descripcion": "Cinturón de levantamiento de pesas para proteger y dar soporte a la espalda durante el entrenamiento de fuerza.",
+        "precio": 19.99,
+        "imagen": "https://m.media-amazon.com/images/I/51la85eyBJL._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 30,
+        "nombre": "Sudadera con Capucha de Alto Rendimiento",
+        "descripcion": "Sudadera con capucha transpirable y elástica para mantener la temperatura corporal durante los entrenamientos al aire libre.",
+        "precio": 44.99,
+        "imagen": "https://m.media-amazon.com/images/I/91I9jbQY2XL._AC_SX569_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Gris", "Negro", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 31,
+        "nombre": "Calcetines de Compresión",
+        "descripcion": "Calcetines de compresión que mejoran la circulación sanguínea y reducen la fatiga muscular durante entrenamientos prolongados.",
+        "precio": 14.99,
+        "imagen": "https://m.media-amazon.com/images/I/71t9xVd0M-L._AC_SX679_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Blanco", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 32,
+        "nombre": "Top Deportivo de Alto Rendimiento",
+        "descripcion": "Top deportivo diseñado para brindar soporte y comodidad durante ejercicios de alto impacto.",
+        "precio": 29.99,
+        "imagen": "https://m.media-amazon.com/images/I/61bn2EQPx1L._AC_UL320_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 33,
+        "nombre": "Leggings Estampados de Yoga",
+        "descripcion": "Leggings de yoga con estampados a la moda para una práctica de yoga con estilo y comodidad.",
+        "precio": 39.99,
+        "imagen": "https://m.media-amazon.com/images/I/713kHMWZ1IL._AC_UL320_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Estampado Floral", "Estampado Geométrico"],
+        "disponible": true
+      },
+      {
+        "id": 34,
+        "nombre": "Gorro de Natación de Silicona",
+        "descripcion": "Gorro de natación de silicona para proteger el cabello y mejorar la hidrodinámica en el agua.",
+        "precio": 9.99,
+        "imagen": "https://m.media-amazon.com/images/I/61-Kw2yYL3L._AC_UL320_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Azul", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 35,
+        "nombre": "Pantalones Cortos Deportivos",
+        "descripcion": "Pantalones cortos deportivos ideales para correr y entrenamientos de alta intensidad.",
+        "precio": 19.99,
+        "imagen": "https://m.media-amazon.com/images/I/5103iBw7OfL._AC_UL320_.jpg",
+        "categoria": "Pantalones Cortos",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Azul", "Gris"],
+        "disponible": true
+      },
+      {
+        "id": 36,
+        "nombre": "Camiseta de Compresión de Alto Rendimiento",
+        "descripcion": "Camiseta de compresión que mejora la circulación sanguínea y reduce la fatiga muscular durante el entrenamiento.",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/71Qunvln5JL._AC_UL320_.jpg",
+        "categoria": "Camisetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Rojo", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 37,
+        "nombre": "Zapatillas de Entrenamiento de Crossfit",
+        "descripcion": "Zapatillas diseñadas específicamente para entrenamientos de Crossfit, ofreciendo estabilidad y tracción.",
+        "precio": 79.99,
+        "imagen": "https://m.media-amazon.com/images/I/81IBXiEa+xL._AC_UL320_.jpg",
+        "categoria": "Calzado",
+        "tallas": ["US 7", "US 8", "US 9", "US 10"],
+        "colores": ["Negro/Azul", "Blanco/Negro", "Rojo/Gris"],
+        "disponible": true
+      },
+      {
+        "id": 38,
+        "nombre": "Shorts de Running con Bolsillo",
+        "descripcion": "Shorts de running con bolsillo para llevar tus pertenencias de forma segura durante los entrenamientos al aire libre.",
+        "precio": 24.99,
+        "imagen": "https://m.media-amazon.com/images/I/61JNsvQ99JL._AC_UL320_.jpg",
+        "categoria": "Pantalones Cortos",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 39,
+        "nombre": "Pantalones de Yoga de Talle Alto",
+        "descripcion": "Pantalones de yoga de talle alto para un ajuste perfecto y comodidad durante la práctica de yoga.",
+        "precio": 29.99,
+        "imagen": "https://m.media-amazon.com/images/I/61w8r8ULiLL._AC_UL320_.jpg",
+        "categoria": "Leggings",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Gris", "Azul"],
+        "disponible": true
+      },
+      {
+        "id": 40,
+        "nombre": "Chaleco Deportivo con Capucha",
+        "descripcion": "Chaleco deportivo con capucha y cierre de cremallera para mantener la temperatura corporal durante el ejercicio al aire libre.",
+        "precio": 44.99,
+        "imagen": "https://m.media-amazon.com/images/I/81SpY8AnA1L._AC_UL320_.jpg",
+        "categoria": "Chaquetas",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 41,
+        "nombre": "Guantes de Levantamiento de Pesas",
+        "descripcion": "Guantes acolchados para levantamiento de pesas que proporcionan un mejor agarre y protegen las manos durante el entrenamiento de fuerza.",
+        "precio": 17.99,
+        "imagen": "https://m.media-amazon.com/images/I/81RmPDX09VL._AC_UL320_.jpg",
+        "categoria": "Accesorios",
+        "colores": ["Negro", "Gris", "Rojo"],
+        "disponible": true
+      },
+      {
+        "id": 42,
+        "nombre": "Pantalones Cortos de Bicicleta de Montaña",
+        "descripcion": "Pantalones cortos diseñados para ciclistas de montaña con tejido resistente y bolsillos para llevar tus pertenencias.",
+        "precio": 32.99,
+        "imagen": "https://m.media-amazon.com/images/I/916zEb+xnIL._AC_UL320_.jpg",
+        "categoria": "Pantalones Cortos",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Verde", "Gris"],
+        "disponible": true
+      }
+    ]
+  }
+  
+  
